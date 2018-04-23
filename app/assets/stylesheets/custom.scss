@@ -1,9 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 /* variables */
 
 $charcoal: #222;
+$shale: #404040;
 $grey: #555;
 $medium-light-grey: #eaeaea;
 $white: #fff;
@@ -24,10 +26,11 @@ $white: #fff;
   @include box_sizing;
 }
 
+
 /* universal */
 
 body {
-  padding-top: 60px;
+  padding-top: 60px;/* let's see*/
 }
 
 section {
@@ -43,6 +46,10 @@ textarea {
   h1 {
   margin-bottom: 10px;
   }
+}
+
+p {
+  text-align: justify;
 }
 
 img {
@@ -77,6 +84,7 @@ p {
   line-height: 1.7em;
 }
 
+
 /* header */
 
 #logo {
@@ -93,6 +101,7 @@ p {
   text-decoration: none;
   }
 }
+
 
 /* footer */
 
@@ -123,8 +132,8 @@ footer {
     color: #charcoal;
     }
   }
-  
-} /* footer */
+} /* close footer */
+
 
 /* sidebar */
 
@@ -154,12 +163,12 @@ aside {
   }
 }
 
-.gravatar {
+.avatar {
   float: left;
   margin-right: 10px;
 }
 
-.gravatar_edit {
+.avatar_edit {
   margin-top: 15px;
 }
 
@@ -201,6 +210,7 @@ aside {
   padding: 0;
 }
 
+
 /* forms */
 
 input, textarea, select, .uneditable-input {
@@ -228,6 +238,7 @@ input {
   margin-left: 0;
 }
 
+
 /* Users index */
 
 .users {
@@ -239,6 +250,7 @@ input {
     border-bottom: 1px solid $gray-lighter;
   }
 }
+
 
 /* microposts */
 
